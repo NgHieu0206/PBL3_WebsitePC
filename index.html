@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chợ Giời</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="./nodejs.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+</head>
+
+<body id="body">
+
+    <div class="menu" id="content">
+        <ul>
+            <li>
+                <a href="#"><img src="img/logo.png" alt="logo"></a>
+            </li>
+            <li style="margin-left: 230px;"></li>
+            <li><a href="#Home"><span style="vertical-align: top;" class="iconify" data-inline="false"
+                        data-icon="ant-design:home-filled"></span>Trang Chủ</a></li>
+            <li><a href="#Chat"><span style="vertical-align: top;" class="iconify" data-inline="false"
+                        data-icon="bi:chat-square-text-fill"></span>Chat</a></li>
+            <li><a href="#Build"><span style="vertical-align: top;" class="iconify" data-inline="false"
+                        data-icon="raphael:pc"></span>Xây Dựng PC</a></li>
+            <li style="margin-left: 40px;"></li>
+            <div class="dropdown1">
+                <img src="img/settings.png" alt="">
+                <div class="dropdown-x">
+                    <button onclick="setcolor('skyblue');" style="background-color: skyblue;">Skyblue</button>
+                    <button onclick="setcolor('red');" style="background-color: red;">Red</button>
+                    <button onclick="setcolor('yellow');" style="background-color: yellow;">Yellow</button>
+                    <button onclick="setcolor('gray');" style="background-color: gray;">Gray</button>
+                    <button onclick="setcolor('pink');" style="background-color: pink;">Pink</button>
+                    <button onclick="setcolor('brown');" style="background-color: brown;">Brown</button>
+                </div>
+            </div>
+
+        </ul>
+        <div class="search">
+            <form action="#a">
+                <a href="#a"><span style="font-size: 35px; margin-left: 30px; vertical-align: middle;" class="iconify"
+                        data-inline="false" data-icon="emojione:laptop-computer"></span></a>
+                <div class="dropdown">
+                    <p>Tất cả danh mục</p>
+                    <div class="dropdown-content">
+                        <a href="#">Build PC</a>
+                        <a href="#">Lap Top Gaming</a>
+                        <a href="#">Linh Kiện Máy Tính</a>
+                    </div>
+                </div>
+                <input type="text" name="" id="TextBoxId" placeholder="Tìm Kiếm Trên Chợ Giời">
+                <button id="click"><img src="img/search.png"></button>
+            </form>
+            <li style="padding-left: 100px;"></li>
+            <a href="html/login.html"
+                style="border-bottom: 6px solid red; background-color: lightgrey; padding:10px 2px; border-radius: 12px;"><img
+                    src="img/login.png" alt="">Đăng Nhập</a>
+        </div>
+
+
+    </div>
+    <div class="body">
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="img/1.jpg" alt="">
+            </div>
+            <div class="mySlides">
+                <img src="img/2.jpg" alt="">
+            </div>
+            <div class="mySlides">
+                <img src="img/3.jpg" alt="">
+            </div>
+            <div class="mySlides">
+                <img src="img/4.jpg" alt="">
+            </div>
+            <div class="mySlides">
+                <img src="img/5.jpg" alt="">
+            </div>
+            <div class="mySlides">
+                <img src="img/6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="end">
+        <table>
+            <tr >
+              <th style="width: 380px;">Hỗ trợ Khách Hàng</th>
+              <th>Chợ Giời</th> 
+              <th>Liên Kết</th>
+            </tr>
+            <tr >
+              <td><a href="#About">Trung tâm trợ giúp</a></td>
+              <td><a href="#About">Giới Thiệu</a></td>
+              <td><a href="#About"></a> <div class="logof">
+                <button onclick="alert('Tính Năng Này Sẽ Phát Triễn Sau');"><img
+                        src="../img/facebook.png" alt=""></button>
+                <button onclick="alert('Tính Năng Này Sẽ Phát Triễn Sau');"><img src="../img/google.png" alt=""></button>
+            </div></td>
+            </tr>
+            <tr>
+              <td><br><a href="#About">An toàn mua bán</a></td>
+              <td><br><a href="#About">Tryền Thông</a></td>
+            </tr>
+            <tr>
+              <td><a href="#About">Quy chế quyền riêng tư</a></td>
+              <td><a href="#About">Tuyển Dụng</a></td>
+              <td> <h4>Chứng Nhận</h4>                
+                  <a href="http://online.gov.vn/Home/WebDetails/33119" target="_blank" ><img
+                src="https://static.chotot.com/storage/default/cerfiticate.png" alt="chứng nhận" ></a></td>
+            </tr>
+          </table>
+       
+    </div>
+    <div class="introduce">
+        <p>CÔNG TY CỔ PHẦN CHỢ GIỜI -Địa chỉ: 54 Nguyễn Lương Bằng, Hoà Khánh Bắc, Liên Chiểu, Đà Nẵng 550000</p>
+        <br>
+        <p>Email: nguyenvanhieuqrt@gmail.com - Đường dây nóng: +84972035504</p>
+        <br>
+        <br>
+    </div>
+
+    <div class="footer"> <a class="btn-top" href="javascript:void(0);" title="Top" style="display: inline;"><span
+                class="iconify" data-inline="false" data-icon="akar-icons:pointing-up"
+                style="height: 50px; width: 50px;"></span></a></div>
+</body>
+
+</html>
